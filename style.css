@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 16px 320px 64px;
+  padding: 16px 320px 96px;
   margin: 0px;
   height: 400px;
   gap: 100px;
@@ -89,6 +89,70 @@ body {
 .hero,
 .footer {
   background-color: #1F2937;
+  color: white;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  padding: 48px 320px 96px;
+  gap: 48px;
+}
+
+.information .header{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.information .images {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.information .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  gap: 8px;
+}
+
+.information .box {
+  border: 3px solid #3882F6;
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+}
+
+.information .subtext {
+  text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 96px 520px 96px;
+}
+
+.quote .text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote .author {
+  text-align: right;
+  font-weight: 700;
+}
+
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div {
